@@ -23,6 +23,10 @@ At the time of code upload, the `main.py` script uses the hyper-parameters used 
 Note that there might be slight variation in generated plots of InexactDANE, AIDE and Synchronous SGD to that of the plots in the paper.
 This is because of the stochastic nature of Synchronous SGD and the sub-problem solver SVRG of InexactDANE.
 
+## Models
+
+This code trains models built from the widely used `torch.nn.Module` class. Therefore, many existing models can be easily imported into and trained by this code.
+
 ## Datasets
 
 We efficiently handle datasets through the classes `torch.utils.data.Dataset` and `torch.utils.data.DataLoader`.
